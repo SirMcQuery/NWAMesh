@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Austin Mesh</title>
+    <title>Northwest Arkansas Mesh</title>
     <meta name="viewport" meta charset="utf-8" content="width=device-width, initial-scale=1.0">
     <style>
         :root {
@@ -125,16 +125,22 @@
                 top: calc(50% - 38px);
             }
         }
+		iframe {
+            width: 100%;
+            height: auto;
+			min-height: 400px;
+            max-width: 100%;
+        }
+
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Austin Mesh</h1>
+        <h1>Northwest Arkansas Mesh</h1>
     </header>
 
-    <main>
-        <div class="meetup">
+    <!-- <div class="meetup">
             <h4>Austin Mesh Meeting</h4>
             <p><strong>When</strong>: Thursday, June 6th @6pm<br />
             <strong>Where</strong>: <a href="https://maps.app.goo.gl/mLidvbyoTRCYXaPdA" target="_blank">Black Sheep Lodge, S Lamar</a><br />
@@ -143,6 +149,9 @@
         </div>
 
         <p>Austin Mesh is a community group working to build a mesh network of solar-powered <a href="https://meshtastic.org/">meshtastic</a> radios in Austin. This network acts like a city-wide text messaging system, allowing people to communicate publicly or privately with anyone on the network. All of this happens without any external infrastructure - no power, no cell phone towers, no internet.</p>
+     -->
+    <main>
+        <p>Northwest Arkansas Mesh is a community group working to build a mesh network of solar-powered <a href="https://meshtastic.org/">meshtastic</a> radios in Northwest Arkansas. This network acts like a city-wide text messaging system, allowing people to communicate publicly or privately with anyone on the network. All of this happens without any external infrastructure - no power, no cell phone towers, no internet.</p>
 
         <ul>
             <li><a href="#how-does-it-work">How does it work?</a></li>
@@ -166,7 +175,7 @@
         </ul>
 
         <h2 id="how-does-it-work">How does it work?</h2>
-        <p>We have set up a number of solar-powered radio repeaters in Austin. These radios communicate on the <a href="https://en.wikipedia.org/wiki/33-centimeter_band">906.875 MHZ</a> frequency using the <a href="https://en.wikipedia.org/wiki/LoRa">LoRa protocol</a>. The radios mesh using the open-source <a href="https://meshtastic.org/">Meshtastic</a> software. Users can connect to these repeaters by Bluetooth if they’re close enough or they can use their own handheld nodes which will also act as repeaters. The messages hop from node to node, extending the reach of the network and ensuring everyone receives every message.
+        <p>We have set up a number of solar-powered radio repeaters in Northwest Arkansas. These radios communicate on the <a href="https://en.wikipedia.org/wiki/33-centimeter_band">906.875 MHZ</a> frequency using the <a href="https://en.wikipedia.org/wiki/LoRa">LoRa protocol</a>. The radios mesh using the open-source <a href="https://meshtastic.org/">Meshtastic</a> software. Users can connect to these repeaters by Bluetooth if they’re close enough or they can use their own handheld nodes which will also act as repeaters. The messages hop from node to node, extending the reach of the network and ensuring everyone receives every message.
             <br></p>
 
         <h2 id="eli5">Can you explain it like I'm 5?</h2>
@@ -174,7 +183,7 @@
         <br>
         <p>Now imagine you want to send a message to a single person or a select group of people but you don't want other people who see the note to be able to read it. You could write the note using a secret language. You could then hand a decoder key to your friend or to a group of friends and they could decode the message. The message still gets passed the same way - with every single person writing the message a few times and handing it to everyone - but only those people with the decoder key will be able to understand the message. This is like sending an encrypted direct message or encrypted group message.</p>
         <br>
-        <p>Austin Mesh works the same way as this paper example, but instead of sending paper notes we're using digital text messages and sending it with radio waves. Our radios are solar powered and they don’t need any internet or cell phone coverage. This means they will work even if the power is out.</p>
+        <p>NWA Mesh works the same way as this paper example, but instead of sending paper notes we're using digital text messages and sending it with radio waves. Our radios are solar powered and they don’t need any internet or cell phone coverage. This means they will work even if the power is out.</p>
         <br>
 
         <h2 id="what-can-it-do">What can it do?</h2>
@@ -200,15 +209,13 @@
         <h3>2) Disasters</h3>
         <p>If the power goes out, like during the 2021 Winter Storm Uri, this network should allow people to continue to communicate with each other without electricity, cell phone coverage, or internet. This big city-wide group text chain could allow people to ask for help or offer assistance. People could get information about where warming centers are open or ask who in their neighborhood still has power. People could also send encrypted direct messages to check in on friends and family or they could send encrypted group messages to coordinate privately in a group.</p>
         <h3>3) Decentralized, Open, and Resilient</h3>
-        <p>Austin Mesh is decentralized - there is no central server or corporation - all the communication bounces through the entire mesh. Austin Mesh is open to everyone - you don't have to ask permission to join and all of the software is open-source. Austin Mesh is resilient - our solar-powered radios don't need cell phone towers, internet access, or electricity. We hope this project will inspire others to build things that are decentralized, open, and resilient.</p>
+        <p>NWA Mesh is decentralized - there is no central server or corporation - all the communication bounces through the entire mesh. NWA Mesh is open to everyone - you don't have to ask permission to join and all of the software is open-source. NWA Mesh is resilient - our solar-powered radios don't need cell phone towers, internet access, or electricity. We hope this project will inspire others to build things that are decentralized, open, and resilient.</p>
 
         <h2 id="coverage">What kind of coverage does the mesh network have?</h2>
-        <p>As of Winter 2023 we have coverage throughout most of downtown and central Austin. We're actively working to expand this coverage.
-            <br> Here is a live map of nodes globally that have access to MQTT: <a href="https://map.technicallyrural.com">MQTT Map</a>.
-            <br> There is a secondary MQTT map here: <a href="https://meshmap.net/">2nd MQTT Map</a>.
-            <br> Here is a map of self reported nodes that is more out-of-date: <a href="https://canvis.app/meshtastic-map">Self-Reported Map</a>.
-            <br> Here is a map of our coverage (slightly out of date):</p>
-        <img src="coverage.jpg" alt="Austin Mesh Coverage Map">
+        <p>As of Spring 2024 We have areas of Fayetteville and Gravette covered. We're actively working to expand this coverage and there are areas not yet mapped.
+        <h3>Northwest Arkansas Coverage Map<h3> 
+		<iframe src="https://www.google.com/maps/d/u/2/embed?mid=12zkQWDu8sLwdD7WrSbUmyfoWzMruJE8&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+       
 
         <h2 id="join-the-network">How can I join the network?</h2>
         <ol>
@@ -224,12 +231,13 @@
         </ol>
 
         <h2 id="join-the-group">How can I join the group?</h2>
-        <p>You can <a href="mailto:info@austinmesh.org">email us</a> to become an official member and attend our in-person meetings in Austin. You can also follow us on <a href="https://twitter.com/AustinMeshOrg" target="_blank">Twitter</a>,
+        <p>You can <a href="mailto:info@nwamesh.com">email us</a> to become an official member and attend our in-person meetings in Northwest Arkansas. <!--- You can also follow us on <a href="https://twitter.com/AustinMeshOrg" target="_blank">Twitter</a>,
             <a href="https://www.instagram.com/p/Cq0jOpYLpZy/" target="_blank">Instagram</a>,
             <a href="https://www.tiktok.com/@austinmesh.org" target="_blank">TikTok</a>,
-            <a href="https://youtube.com/channel/UCtFl5gdwv0SdrP8sHlDMKNA">YouTube</a>, or join our <a href="https://discord.gg/6a5Sv2s9bG" target="_blank">Discord</a>.</p>
+            <a href="https://youtube.com/channel/UCtFl5gdwv0SdrP8sHlDMKNA">YouTube</a>, and join our <a href="https://discord.gg/6a5Sv2s9bG" target="_blank">Discord</a>.</p> --->
 
         <h2 id="building-a-solar-powered-repeater">Building a Solar-Powered Repeater</h2>
+        <h3>These are findings done by the Austin Mesh team. The NWA Mesh comunity is still testing what is best for our climate but we estimate the results to be similar </h3> 
         <p>We have tried 5 permutations of solar powering nodes:</p>
         <p><strong>Version 1.0:</strong> Using RAK RAKBox-B2 Enclosure with solar panel. The panel was connected directly to the RAK Wireless WisBlock Meshtastic Starter Kit US915. We connected a 2000 MAh Lithium Polymer battery directly to the RAK board. We drilled a hole in the top of the box and attached a fiberglass antenna, which was connected to the RAK board with an iPEX to N-Type connector. We mounted this on top of one of the UT buildings and it died within a month. The 0.4 watt panel is way too small.</p>
         <p><strong>Version 2.0:</strong> Same as 1.0 but we added a second 5 watt solar panel that was connected to the RAK board via USB. Also died within a month.</p>
@@ -247,16 +255,16 @@
             <li>Don’t add any modules. The GPS module increases battery usage significantly and is unnecessary if the repeater is in a fixed position.</li>
             <li>Seal everything properly and make sure water has a way to get out of the case. Use o-rings for the antenna mount and wrap connectors in proxicast. Add a drain plug to the case so any condensation has a way to escape. For high humidity environments, spray the electronics with conformal coating.</li>
         </ol>
-        <p>These are lessons learned from Austin Texas, where the main environmental stressors are heat and thunderstorms. In the summer of 2023 we 80 days over 100° F (38°C) and we had a stretch of 11 days over 105° F (40.5°C), during which two radios died. We also can have both high humidity and high temperature at the same time in Austin; in the summer the weather would swing from 80° F (27°C) with 85% humidity in the morning to 105° F (38°C) with 25% humidity in the afternoon. <a href="https://weatherspark.com/h/y/8004/2023/Historical-Weather-during-2023-in-Austin-Texas-United-States">Weather history here.</a> Our learnings are probably applicable to other southern and desert climates.</p>
+        <!--- <p>These are lessons learned from Austin Texas, where the main environmental stressors are heat and thunderstorms. In the summer of 2023 we 80 days over 100° F (38°C) and we had a stretch of 11 days over 105° F (40.5°C), during which two radios died. We also can have both high humidity and high temperature at the same time in Austin; in the summer the weather would swing from 80° F (27°C) with 85% humidity in the morning to 105° F (38°C) with 25% humidity in the afternoon. <a href="https://weatherspark.com/h/y/8004/2023/Historical-Weather-during-2023-in-Austin-Texas-United-States">Weather history here.</a> Our learnings are probably applicable to other southern and desert climates.</p> --->
 
         <h3>Considerations for other climates</h3>
         <ol>
-            <li>Northern Climates: At higher latitudes there is much less sunshine in the winter. A larger solar panel would be necessary and angling the panel lower to the horizon would be beneficial. The rule of thumb is to angle the solar panels at the same degree as your latitude. In Austin our panels should be angled at 30° but in Calgary the optimal angle would be 50°. Batteries should also be bigger in colder climates as low temperatures reduce their performance.</li>
+            <li>Northern Climates: At higher latitudes there is much less sunshine in the winter. A larger solar panel would be necessary and angling the panel lower to the horizon would be beneficial. The rule of thumb is to angle the solar panels at the same degree as your latitude. In Northwest Arkansas our panels should be angled at 30° but in Calgary the optimal angle would be 50°. Batteries should also be bigger in colder climates as low temperatures reduce their performance.</li>
             <li>Coastal Climates: salt spray and condensation from fog can kill electronics quickly. In coastal climates it is best to spray the electronics with conformal coating.</li>
         </ol>
 
         <h3 id="parts-list">Parts List</h3>
-        <p>With all that said, here is the parts list for our most-preferred way to build a solar powered repeater. This design doesn’t require any soldering or complicated connectors. It also doesn’t require any battery management chips (which often have long shipping lead times and can be hard to get). For this design the solar panel is connected directly to the battery pack via USB. Then the battery pack is connected to the board via USB. The Voltaic Systems V75 battery is nice because it is optimized to charge from a solar panel and it is set standard to an “always on” mode which means the battery bank does not shut off after a set amount of time like other battery packs – this is useful as the RAK chip uses very little power and can trick other battery packs into shutting off. The other really nice thing about the Voltaic pack is than when it drains down completely it shuts down, but then once the solar panel has sufficiently charged it back up it will automatically turn itself back on again. The RAK radio uses between 100 and 1000 mAh per day, with about 400 mAh per day being average so theoretically the 19,200mAh Voltaic V75 could keep the radio running for 48 days without solar.</p>
+        <p>With all that said, here is the parts list the Austin Mesh comunity put together for their most-preferred way to build a solar powered repeater. This design doesn’t require any soldering or complicated connectors. It also doesn’t require any battery management chips (which often have long shipping lead times and can be hard to get). For this design the solar panel is connected directly to the battery pack via USB. Then the battery pack is connected to the board via USB. The Voltaic Systems V75 battery is nice because it is optimized to charge from a solar panel and it is set standard to an “always on” mode which means the battery bank does not shut off after a set amount of time like other battery packs – this is useful as the RAK chip uses very little power and can trick other battery packs into shutting off. The other really nice thing about the Voltaic pack is than when it drains down completely it shuts down, but then once the solar panel has sufficiently charged it back up it will automatically turn itself back on again. The RAK radio uses between 100 and 1000 mAh per day, with about 400 mAh per day being average so theoretically the 19,200mAh Voltaic V75 could keep the radio running for 48 days without solar.</p>
 
         <div class="table-wrapper">
             <table>
@@ -406,14 +414,15 @@
         </dl>
         <h2 id="other-meshes">Other Meshes</h2>
         <p>
-            For people in other places we've see a number of other meshtastic clubs spring up::
+            For people in other places we've see a number of other meshtastic clubs spring up.
+	    <br>Austin, Texas: <a href="http://austinmesh.org">Austin Mesh</a>
             <br>Birmingham, Alabama: <a href="http://birminghammesh.org/">Birmingham Mesh</a>
             <br>Calgary, Alberta: <a href="https://yycmesh.com">YYC Mesh</a>
             <br>Charlotte, North Carolina: <a href="https://charlottemesh.org/">Charlotte Mesh</a>
             <br>Denver, Colorado: <a href="https://denvermesh.org/">Denver Mesh</a>
             <br>Hawaii: <a href="https://www.hawaiimesh.net/">Hawaii Mesh</a>
             <br>Nashville, Tennessee: <a href="https://www.instagram.com/meshville.tn">Meshville</a>
-            <br>Southern California: <a href="https://socalmesh.com/">SoCal Mesh</a>
+            <br>Orange County, California: <a href="https://lagunamesh.com/">Laguna Mesh</a>
             <br>Philadelphia, Pennsylvania: <a href="https://iffybooks.net/">Iffy Books is leading the effort</a>
         </p>
 
@@ -427,7 +436,7 @@
             <li>Connect with your local ham radio club - they're very knowledgable about radio and they often have access to towers and rooftops.</li>
             <li>Connect with your local disaster relief agency, red cross, or mutual aid group - they are also often willing to put up repeaters on their buildings.</li>
         </ol>
-        <p>Our website content is licensed under Creative Commons - feel free to use if for your club's website: <a href="https://github.com/willmartindotcom/austinmesh">Github</a>
+        <p>This website content is licensed under Creative Commons - feel free to use if for your club's website: <a href="https://github.com/willmartindotcom/austinmesh">Github</a>
             <br>If we've inspired you, please <a href="mailto:info@austinmesh.org">email us</a>!
             <br>
         </p>
